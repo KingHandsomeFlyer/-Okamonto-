@@ -27,3 +27,9 @@ TA为协议选择参数：(i)大素数:p,q且q|p-1 (ii)α1,α2∈Zp为q阶元；
 (vi)  Alice计算y1 = k1+a1*r mod q和y2 = k2+a2*r mod q并传送y1和y2给Bob
 
 (vii) Bob验证γ = α1^y1 * α2^y2 * v^r mod p
+
+三、编程实现：
+
+(1)编程语言：python
+
+(2)编程环境：python3.85
