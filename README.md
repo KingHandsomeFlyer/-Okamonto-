@@ -1,6 +1,8 @@
-# -Okamonto-
+# -基于Okamonto的身份识别协议实现-
 
-一、简介Okamoto 身份识别协议由 T.Okamoto 于1992年在 Crypto 92 会议上提出。当时人们没有发现 Schnorr 身份识别协议是可证明安全的，T.Okamoto对 Schnorr 身份识别协议做了改进，这种改进假定所选择的计算参数保证Zp上的离散对数问题是安全的，所以Okamoto 身份识别协议是可证明安全的。Okamoto 方案和 Schnorr 方案的区别在于前者使用两个生成元α1,α2，当p与q较大时，计算离散对数问题是困难的，所以前者的安全性更高，但是 Okamoto 方案比 Schnorr 方案计算量更大，所以从实现效率来讲，Schnorr协议比前者更实用。
+一、简介：
+
+Okamoto 身份识别协议由 T.Okamoto 于1992年在 Crypto 92 会议上提出。当时人们没有发现 Schnorr 身份识别协议是可证明安全的，T.Okamoto对 Schnorr 身份识别协议做了改进，这种改进假定所选择的计算参数保证Zp上的离散对数问题是安全的，所以Okamoto 身份识别协议是可证明安全的。Okamoto 方案和 Schnorr 方案的区别在于前者使用两个生成元α1,α2，当p与q较大时，计算离散对数问题是困难的，所以前者的安全性更高，但是 Okamoto 方案比 Schnorr 方案计算量更大，所以从实现效率来讲，Schnorr协议比前者更实用。
 
 二、算法流程：
 
