@@ -15,7 +15,6 @@ TA为协议选择参数：(i)大素数:p,q且q|p-1 (ii)α1,α2∈Zp为q阶元；
 (ii)  Alice选择随机数k1,k2,0≤k1,k2≤q-1，
 
 并计算：γ = α1^k1 * α2^k2 mod p
-
 (iii) Alice传送证书Cert(Alice) = (ID(Alice), v, s)和γ给Bob
 
 (iv)  Bob验证verTA (ID(Alice)||v,s) = True 	
